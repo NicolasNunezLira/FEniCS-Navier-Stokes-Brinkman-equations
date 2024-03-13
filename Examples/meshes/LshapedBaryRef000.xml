@@ -1,0 +1,67 @@
+<dolfin xmlns:dolfin="https://fenicsproject.org/">
+  <mesh celltype="triangle" dim="2">
+    <vertices size="23">
+      <vertex index="0" x="-1.0" y="-1.0"/>
+      <vertex index="1" x="1.0" y="-1.0"/>
+      <vertex index="2" x="1.0" y="0.0"/>
+      <vertex index="3" x="0.0" y="0.0"/>
+      <vertex index="4" x="0.0" y="1.0"/>
+      <vertex index="5" x="-1.0" y="1.0"/>
+      <vertex index="6" x="-2.752797989558076e-12" y="-1.0"/>
+      <vertex index="7" x="-1.0" y="2.752797989558076e-12"/>
+      <vertex index="8" x="-0.5000000000013765" y="-0.4999999999986236"/>
+      <vertex index="9" x="-0.4999999999996068" y="0.5000000000008848"/>
+      <vertex index="10" x="0.4999999999986235" y="-0.5000000000013765"/>
+      <vertex index="11" x="-0.8333333333337922" y="-0.4999999999986236"/>
+      <vertex index="12" x="0.4999999999986235" y="-0.8333333333337922"/>
+      <vertex index="13" x="-0.5000000000004589" y="-0.1666666666652903"/>
+      <vertex index="14" x="-1.835254170856615e-12" y="-0.6666666666666666"/>
+      <vertex index="15" x="-0.4999999999998689" y="0.1666666666678792"/>
+      <vertex index="16" x="-0.4999999999998689" y="0.8333333333336282"/>
+      <vertex index="17" x="-9.176548410039231e-13" y="-0.3333333333333333"/>
+      <vertex index="18" x="-0.1666666666665356" y="0.500000000000295"/>
+      <vertex index="19" x="-0.5000000000013765" y="-0.8333333333328746"/>
+      <vertex index="20" x="0.8333333333328744" y="-0.5000000000004589"/>
+      <vertex index="21" x="0.4999999999995412" y="-0.1666666666671255"/>
+      <vertex index="22" x="-0.8333333333332024" y="0.5000000000012126"/>
+    </vertices>
+    <cells size="36">
+      <triangle index="0" v0="7" v1="0" v2="11"/>
+      <triangle index="1" v0="0" v1="8" v2="11"/>
+      <triangle index="2" v0="8" v1="7" v2="11"/>
+      <triangle index="3" v0="6" v1="1" v2="12"/>
+      <triangle index="4" v0="1" v1="10" v2="12"/>
+      <triangle index="5" v0="10" v1="6" v2="12"/>
+      <triangle index="6" v0="3" v1="7" v2="13"/>
+      <triangle index="7" v0="7" v1="8" v2="13"/>
+      <triangle index="8" v0="8" v1="3" v2="13"/>
+      <triangle index="9" v0="8" v1="6" v2="14"/>
+      <triangle index="10" v0="6" v1="10" v2="14"/>
+      <triangle index="11" v0="10" v1="8" v2="14"/>
+      <triangle index="12" v0="7" v1="3" v2="15"/>
+      <triangle index="13" v0="3" v1="9" v2="15"/>
+      <triangle index="14" v0="9" v1="7" v2="15"/>
+      <triangle index="15" v0="4" v1="5" v2="16"/>
+      <triangle index="16" v0="5" v1="9" v2="16"/>
+      <triangle index="17" v0="9" v1="4" v2="16"/>
+      <triangle index="18" v0="3" v1="8" v2="17"/>
+      <triangle index="19" v0="8" v1="10" v2="17"/>
+      <triangle index="20" v0="10" v1="3" v2="17"/>
+      <triangle index="21" v0="3" v1="4" v2="18"/>
+      <triangle index="22" v0="4" v1="9" v2="18"/>
+      <triangle index="23" v0="9" v1="3" v2="18"/>
+      <triangle index="24" v0="0" v1="6" v2="19"/>
+      <triangle index="25" v0="6" v1="8" v2="19"/>
+      <triangle index="26" v0="8" v1="0" v2="19"/>
+      <triangle index="27" v0="1" v1="2" v2="20"/>
+      <triangle index="28" v0="2" v1="10" v2="20"/>
+      <triangle index="29" v0="10" v1="1" v2="20"/>
+      <triangle index="30" v0="2" v1="3" v2="21"/>
+      <triangle index="31" v0="3" v1="10" v2="21"/>
+      <triangle index="32" v0="10" v1="2" v2="21"/>
+      <triangle index="33" v0="5" v1="7" v2="22"/>
+      <triangle index="34" v0="7" v1="9" v2="22"/>
+      <triangle index="35" v0="9" v1="5" v2="22"/>
+    </cells>
+  </mesh>
+</dolfin>
